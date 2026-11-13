@@ -1,0 +1,73 @@
+problem,model,seed,seq_len,test_acc,macro_f1,test_mse,params,sec_per_epoch,val_loss_nats,bits_per_char,notes
+1,RNN,0,128,0.8540889039701391,0.8503071823058704,,5190,0.518100380897522,,,HAR; H=64; epochs=30; clip=1.0; best_epoch=13; val_macro_f1=0.8389
+1,RNN,1,128,0.8473023413640991,0.84856995930131,,5190,0.49651170571645104,,,HAR; H=64; epochs=30; clip=1.0; best_epoch=15; val_macro_f1=0.8483
+1,RNN,2,128,0.8496776382762131,0.8497594926102678,,5190,0.48461941878000897,,,HAR; H=64; epochs=30; clip=1.0; best_epoch=25; val_macro_f1=0.9173
+1,LSTM,0,128,0.8880217170003394,0.8889927291985122,,19590,1.375927249590556,,,HAR; H=64; epochs=30; clip=1.0; best_epoch=29; val_macro_f1=0.9442
+1,LSTM,1,128,0.8859857482185273,0.8854194780357848,,19590,1.3827174266179403,,,HAR; H=64; epochs=30; clip=1.0; best_epoch=25; val_macro_f1=0.8822
+1,LSTM,2,128,0.8856464200882254,0.885623690732869,,19590,1.4131918668746948,,,HAR; H=64; epochs=30; clip=1.0; best_epoch=6; val_macro_f1=0.9122
+1,GRU,0,128,0.8927723108245673,0.8922276393720884,,14790,1.135860800743103,,,HAR; H=64; epochs=30; clip=1.0; best_epoch=19; val_macro_f1=0.9339
+1,GRU,1,128,0.8887003732609433,0.8876040037717811,,14790,1.1374105215072632,,,HAR; H=64; epochs=30; clip=1.0; best_epoch=5; val_macro_f1=0.8569
+1,GRU,2,128,0.8798778418730913,0.8791615342633934,,14790,1.159769105911255,,,HAR; H=64; epochs=30; clip=1.0; best_epoch=5; val_macro_f1=0.9440
+1,RNN,0,50,,,0.1748325526714325,4417,0.33293331464131676,,,adding; H=64; epochs=15; clip=1.0; best_epoch=8; solved=False; baseline_mse=0.1754
+1,RNN,1,50,,,0.17471103370189667,4417,0.3345326900482178,,,adding; H=64; epochs=15; clip=1.0; best_epoch=13; solved=False; baseline_mse=0.1754
+1,RNN,2,50,,,0.17489059269428253,4417,0.3298047542572021,,,adding; H=64; epochs=15; clip=1.0; best_epoch=10; solved=False; baseline_mse=0.1754
+1,LSTM,0,50,,,0.016960984095931053,17473,0.8832548141479493,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1754
+1,LSTM,1,50,,,0.04949476197361946,17473,0.8831829388936361,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1754
+1,LSTM,2,50,,,0.010998331941664219,17473,0.8807655334472656,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1754
+1,GRU,0,50,,,0.002808390883728862,13121,0.7074778397878011,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1754
+1,GRU,1,50,,,0.0015006780158728361,13121,0.7081486066182454,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1754
+1,GRU,2,50,,,0.002134131034836173,13121,0.7071704864501953,,,adding; H=64; epochs=15; clip=1.0; best_epoch=12; solved=True; baseline_mse=0.1754
+1,RNN,0,100,,,0.17050248384475708,4417,0.621627934773763,,,adding; H=64; epochs=15; clip=1.0; best_epoch=12; solved=False; baseline_mse=0.1697
+1,RNN,1,100,,,0.17004179954528809,4417,0.623049799601237,,,adding; H=64; epochs=15; clip=1.0; best_epoch=7; solved=False; baseline_mse=0.1697
+1,RNN,2,100,,,0.1701037585735321,4417,0.6209245204925538,,,adding; H=64; epochs=15; clip=1.0; best_epoch=13; solved=False; baseline_mse=0.1697
+1,LSTM,0,100,,,0.1694265455007553,17473,1.8030513127644856,,,adding; H=64; epochs=15; clip=1.0; best_epoch=2; solved=False; baseline_mse=0.1697
+1,LSTM,1,100,,,0.1695224493741989,17473,1.8197121461232504,,,adding; H=64; epochs=15; clip=1.0; best_epoch=0; solved=False; baseline_mse=0.1697
+1,LSTM,2,100,,,0.17003077268600464,17473,1.8049021402994792,,,adding; H=64; epochs=15; clip=1.0; best_epoch=13; solved=False; baseline_mse=0.1697
+1,GRU,0,100,,,0.00206408416852355,13121,1.465051571528117,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1697
+1,GRU,1,100,,,0.0019063466461375356,13121,1.4555551687876382,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1697
+1,GRU,2,100,,,0.0019912461284548044,13121,1.4563084761301677,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1697
+1,RNN,0,200,,,0.16821902990341187,4417,1.2264345328013102,,,adding; H=64; epochs=15; clip=1.0; best_epoch=10; solved=False; baseline_mse=0.1679
+1,RNN,1,200,,,0.1688789278268814,4417,1.225158977508545,,,adding; H=64; epochs=15; clip=1.0; best_epoch=11; solved=False; baseline_mse=0.1679
+1,RNN,2,200,,,0.16844795644283295,4417,1.2258620103200277,,,adding; H=64; epochs=15; clip=1.0; best_epoch=10; solved=False; baseline_mse=0.1679
+1,LSTM,0,200,,,0.16824236512184143,17473,3.62158408164978,,,adding; H=64; epochs=15; clip=1.0; best_epoch=3; solved=False; baseline_mse=0.1679
+1,LSTM,1,200,,,0.1683632731437683,17473,3.672959550221761,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=False; baseline_mse=0.1679
+1,LSTM,2,200,,,0.1682269126176834,17473,3.673500410715739,,,adding; H=64; epochs=15; clip=1.0; best_epoch=11; solved=False; baseline_mse=0.1679
+1,GRU,0,200,,,0.0025716598611325026,13121,3.073124821980794,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1679
+1,GRU,1,200,,,0.0027509324718266726,13121,3.0707152207692463,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1679
+1,GRU,2,200,,,0.004177148453891277,13121,3.0628795941670734,,,adding; H=64; epochs=15; clip=1.0; best_epoch=13; solved=True; baseline_mse=0.1679
+1,RNN,0,400,,,0.15397459268569946,4417,2.5467381477355957,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=False; baseline_mse=0.1527
+1,RNN,1,400,,,0.15430982410907745,4417,2.5626530170440676,,,adding; H=64; epochs=15; clip=1.0; best_epoch=11; solved=False; baseline_mse=0.1527
+1,RNN,2,400,,,0.15331043303012848,4417,2.5658710320790608,,,adding; H=64; epochs=15; clip=1.0; best_epoch=10; solved=False; baseline_mse=0.1527
+1,LSTM,0,400,,,0.15357063710689545,17473,7.50148720741272,,,adding; H=64; epochs=15; clip=1.0; best_epoch=7; solved=False; baseline_mse=0.1527
+1,LSTM,1,400,,,0.1536765992641449,17473,7.484469445546468,,,adding; H=64; epochs=15; clip=1.0; best_epoch=11; solved=False; baseline_mse=0.1527
+1,LSTM,2,400,,,0.15369662642478943,17473,7.497248935699463,,,adding; H=64; epochs=15; clip=1.0; best_epoch=8; solved=False; baseline_mse=0.1527
+1,GRU,0,400,,,0.07828009873628616,13121,6.403396908442179,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=False; baseline_mse=0.1527
+1,GRU,1,400,,,0.023868942633271217,13121,6.346708170572916,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=True; baseline_mse=0.1527
+1,GRU,2,400,,,0.021648788824677467,13121,6.369537401199341,,,adding; H=64; epochs=15; clip=1.0; best_epoch=13; solved=True; baseline_mse=0.1527
+1,LSTM,0,128,0.8612147947064812,0.8597784144978835,,1830,0.6228293339411418,,,HAR; H=16; epochs=30; clip=1.0; best_epoch=28; val_macro_f1=0.8887; sweep
+1,LSTM,0,128,0.8707159823549372,0.8702726708679823,,5702,0.8139054934183757,,,HAR; H=32; epochs=30; clip=1.0; best_epoch=20; val_macro_f1=0.9459; sweep
+1,LSTM,0,128,0.9026128266033254,0.9027046016212917,,71942,2.2695967594782513,,,HAR; H=128; epochs=30; clip=1.0; best_epoch=15; val_macro_f1=0.9215; sweep
+1,GRU,0,128,0.8744485917882593,0.8733296732747746,,1398,0.664419420560201,,,HAR; H=16; epochs=30; clip=1.0; best_epoch=13; val_macro_f1=0.8635; sweep
+1,GRU,0,128,0.9029521547336274,0.9007956810655827,,4326,0.7635837872823079,,,HAR; H=32; epochs=30; clip=1.0; best_epoch=13; val_macro_f1=0.8942; sweep
+1,GRU,0,128,0.9205972175093315,0.9201836850103993,,54150,1.852581524848938,,,HAR; H=128; epochs=30; clip=1.0; best_epoch=18; val_macro_f1=0.9348; sweep
+1,RNN,0,200,,,0.1680452525615692,4417,1.226780923207601,,,adding; H=64; epochs=15; clip=None; best_epoch=10; solved=False; baseline_mse=0.1679; ablation=no_clip
+1,LSTM,0,200,,,0.1682497262954712,17473,3.732431713740031,,,adding; H=64; epochs=15; clip=1.0; best_epoch=3; solved=False; baseline_mse=0.1679; ablation=forget_bias_0
+1,LSTM,0,200,,,0.1685754656791687,17473,3.75439723332723,,,adding; H=64; epochs=15; clip=1.0; best_epoch=10; solved=False; baseline_mse=0.1679; ablation=forget_bias_1
+1,RNN,1,200,,,0.16844503581523895,4417,1.2359198570251464,,,adding; H=64; epochs=15; clip=None; best_epoch=11; solved=False; baseline_mse=0.1679; ablation=no_clip
+1,LSTM,1,200,,,0.16836892068386078,17473,3.683244832356771,,,adding; H=64; epochs=15; clip=1.0; best_epoch=14; solved=False; baseline_mse=0.1679; ablation=forget_bias_0
+1,LSTM,1,200,,,0.16846230626106262,17473,3.6815810044606527,,,adding; H=64; epochs=15; clip=1.0; best_epoch=6; solved=False; baseline_mse=0.1679; ablation=forget_bias_1
+1,RNN,2,200,,,0.1686788946390152,4417,1.2239003658294678,,,adding; H=64; epochs=15; clip=None; best_epoch=10; solved=False; baseline_mse=0.1679; ablation=no_clip
+1,LSTM,2,200,,,0.1682138592004776,17473,3.6878114382425946,,,adding; H=64; epochs=15; clip=1.0; best_epoch=11; solved=False; baseline_mse=0.1679; ablation=forget_bias_0
+1,LSTM,2,200,,,0.16829265654087067,17473,3.695036856333415,,,adding; H=64; epochs=15; clip=1.0; best_epoch=3; solved=False; baseline_mse=0.1679; ablation=forget_bias_1
+2,HAR Transformer (pos=none),42,128,0.9056667797760435,0.9038281595236634,,398982,7.91,,,15 epochs; val_acc=0.9661; official test split
+2,HAR Transformer (pos=sinusoidal),42,128,0.8853070919579233,0.8828842347474698,,398982,7.94,,,15 epochs; val_acc=0.9572; official test split
+2,HAR Transformer (pos=learned),42,128,0.8920936545639634,0.8890659043625778,,415494,8.32,,,15 epochs; val_acc=0.9467; official test split
+2,"Char Transformer LM (default, 4 heads, 4 layers)",42,128,,,,801664,,1.6777182137966156,2.420435747053467,3000 steps; constant lr 3e-4; 100x64 fixed val windows; 10.1 min CPU
+2,Char Transformer LM ablation: heads=1,42,128,,,,801664,,2.445097563266754,3.527530129014635,800 steps (same budget for all ablation runs)
+2,Char Transformer LM ablation: heads=4,42,128,,,,801664,,2.2854243469238282,3.297170371633905,800 steps (same budget for all ablation runs)
+2,Char Transformer LM ablation: heads=8,42,128,,,,801664,,2.2746591567993164,3.281639485227045,800 steps (same budget for all ablation runs)
+2,Char Transformer LM ablation: no causal mask (heads=4),42,128,,,,801664,,6.579494090080261,9.492203495317035,800 steps (same budget for all ablation runs)
+2,Timing: Char Transformer LM,42,64,,,,,,,,sec_per_step=0.0735; batch 64; peak_memory_mb=n/a (CPU)
+2,Timing: Char Transformer LM,42,128,,,,,,,,sec_per_step=0.1797; batch 64; peak_memory_mb=n/a (CPU)
+2,Timing: Char Transformer LM,42,256,,,,,,,,sec_per_step=0.4833; batch 64; peak_memory_mb=n/a (CPU)
+2,Timing: Char Transformer LM,42,512,,,,,,,,sec_per_step=1.9226; batch 64; peak_memory_mb=n/a (CPU)

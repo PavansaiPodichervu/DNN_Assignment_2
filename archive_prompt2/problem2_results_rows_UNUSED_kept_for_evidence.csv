@@ -1,0 +1,13 @@
+problem,model,seed,seq_len,test_acc,macro_f1,test_mse,params,sec_per_epoch,val_loss_nats,bits_per_char,notes
+2,HAR Transformer (pos=none),42,128,0.9056667797760435,0.9038281595236634,,398982.0,8.59,,,15 epochs; val_acc=0.9661; official test split
+2,HAR Transformer (pos=sinusoidal),42,128,0.8853070919579233,0.8828842347474698,,398982.0,8.28,,,15 epochs; val_acc=0.9572; official test split
+2,HAR Transformer (pos=learned),42,128,0.8920936545639634,0.8890659043625778,,415494.0,8.21,,,15 epochs; val_acc=0.9467; official test split
+2,"Char Transformer LM (default, 4 heads, 4 layers)",42,128,,,,801664.0,,1.6777182137966156,2.420435747053467,3000 steps; constant lr 3e-4; 100x64 fixed val windows; 10.0 min CPU
+2,Char Transformer LM ablation: heads=1,42,128,,,,801664.0,,2.445097563266754,3.527530129014635,800 steps (same budget for all ablation runs)
+2,Char Transformer LM ablation: heads=4,42,128,,,,801664.0,,2.2854243469238282,3.297170371633905,800 steps (same budget for all ablation runs)
+2,Char Transformer LM ablation: heads=8,42,128,,,,801664.0,,2.2746591567993164,3.281639485227045,800 steps (same budget for all ablation runs)
+2,Char Transformer LM ablation: no causal mask (heads=4),42,128,,,,801664.0,,6.579494090080261,9.492203495317035,800 steps (same budget for all ablation runs)
+2,Timing: Char Transformer LM,42,64,,,,,,,,sec_per_step=0.0770; batch 64; peak_memory_mb=n/a (CPU)
+2,Timing: Char Transformer LM,42,128,,,,,,,,sec_per_step=0.1848; batch 64; peak_memory_mb=n/a (CPU)
+2,Timing: Char Transformer LM,42,256,,,,,,,,sec_per_step=0.4961; batch 64; peak_memory_mb=n/a (CPU)
+2,Timing: Char Transformer LM,42,512,,,,,,,,sec_per_step=1.7814; batch 64; peak_memory_mb=n/a (CPU)

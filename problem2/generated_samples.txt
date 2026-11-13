@@ -1,46 +1,57 @@
-Temperature 0.2
- the the the spre and the the athe the the cour the athe seat
-And she the at sand the the the see the sour ther the the the athe t the the he athe sthe the de thee de sthee sthe the the he hee athe athe t the the he the se thee he the se the athe de the the sen the athe sthe therer
-The the athe we shat the the our the the the the sthe se the sthe the sthe se the athe st the the the see the the thee he sthe the sean the sthe the the sene athe se the se death
+Temperature 0.2 (top-k 40, 500 generated characters, prompt excluded)
+the come to the come of the stands
+And not the provose of the death to the seast
+To make the content the content the see the commont
+That the world the both of the seems and the stands
+That he shall be so the shall be the counter
+To the contrant to the father and the country be to the send
+The come to the seems and the seems of the stands
+To the shall of the sease the come of the shall be the was
+To make the stand the stand and the stands of the shall
+To shall the comes with the comes of the hav
 
-The the cour she sthe t athe the seat 
+Temperature 0.8 (top-k 40, 500 generated characters, prompt excluded)
+from all set here with live,
+And some a as a pardoughts the mams?
 
-Temperature 0.8
- a tit.
+GREMIO:
+Pasterwick no sea so much good of your by
+As which discops as the love of York not now aling
+It and like heer face: his house his doop her
+Than had it, with the send the fast in the be the refle.
 
-BRCYOLOUS:
-Sit my, ands mint shay s mis and of myetour sus freent
-That too and besst, loun the the,
-Bow sat of to non athalld s e eean d thitive t wotos thourdon dem ke tho he ofom.
+Shepherd:
+Then like never and this door him; and not so for this,
+Came, or face my father.
 
+Second Centleman:
+What I should there you are these from him.
 
+GORIZEL:
+The more friends, when the honour back courtice
+me but the remem
 
-FORWAnd LAUELUCUT:
-Thard at s myousus, if atilll the anthe st mounge incten hand
-fat oo ore despeps, tendes ite an tho head ave tat orllin,
-pat be henece qund I werpesd habute d.
+Temperature 1.5 (top-k 40, 500 generated characters, prompt excluded)
+broIavinh em.
+Seen; Pompey.
 
-Paind t then, be dist besttt hee gre haid m ine thime willd mead
+KING RICHAM thou,''s awault-ncle.
+Groyy; lust but woul.
+Did is a brot Given in be.
 
-Whan bend nothe pot de sefotheristis troon se mee topee whita
+DLARD VINcENIO:
 
-Temperature 1.5
- lY', lom govie tevime, wndal', a fim Igomignt; to pyegee.
-My,rru ORI:
-That'grothpp, hecl; me, freapr sum!
-Wiecos rarwrars henaliwen uch
-Ther Is Ifowht I if? Nom pomedva!
-Thr'd, I!
-thinoung nsidlob-s niefow'ich e. blfamac;
-GAess whow'd, Butach;Ney owep. f PuUK:
+SARGHOS:
+Shaldber lust me whuxhe, frially yonck'd.
+Webheek Hisseld wish, hi love:
+Nadver I refil We wivicklep him dit: should be till
+Horse'st wilt, I my true us., HenMy, Buthoro, but: all!
+Bycable you cry trust should?
 
-RO,-OnlantWir?
-QUTPT Wof! shatrf, the athont, cuk ungleeam m: km. mof deard
-Vo blod.
+ISABELLA:Were no wear? yea
+Of I said just, wa, and arbs-birk As and lother.
+BleoffoRd HePour'ds doth! poiceress almisy!'
 
-GOUKKfom lovethn if, a;
-
-Righis berget! ootecaxsest--ay; wnolld-zeaiLl temimourn'sp
-A clik darn tomowcw hqutatyBB Rotle
-BYew, plicuy lithe asts Ghiem;  
+QUEEN-MIAxamoni:
+We bid he 
 

@@ -1,0 +1,5 @@
+ablation,condition,test MSE,solved (of 3)
+rnn_clip,clip 1.0,0.1685 ± 0.0003,0
+rnn_clip,no clip,0.1684 ± 0.0003,0
+lstm_forget,forget bias 0,0.1683 ± 0.0001,0
+lstm_forget,forget bias 1,0.1684 ± 0.0001,0

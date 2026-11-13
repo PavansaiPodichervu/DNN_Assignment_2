@@ -1,0 +1,57 @@
+Temperature 0.2 (top-k 40, 500 characters)
+ the come to the come of the stands
+And not the provose of the death to the seast
+To make the content the content the see the commont
+That the world the both of the seems and the stands
+That he shall be so the shall be the counter
+To the contrant to the father and the country be to the send
+The come to the seems and the seems of the stands
+To the shall of the sease the come of the shall be the was
+To make the stand the stand and the stands of the shall
+To shall the comes with the comes of the hav
+
+Temperature 0.8 (top-k 40, 500 characters)
+ from all set here with live,
+And some a as a pardoughts the mams?
+
+GREMIO:
+Pasterwick no sea so much good of your by
+As which discops as the love of York not now aling
+It and like heer face: his house his doop her
+Than had it, with the send the fast in the be the refle.
+
+Shepherd:
+Then like never and this door him; and not so for this,
+Came, or face my father.
+
+Second Centleman:
+What I should there you are these from him.
+
+GORIZEL:
+The more friends, when the honour back courtice
+me but the remem
+
+Temperature 1.5 (top-k 40, 500 characters)
+ broIavinh em.
+Seen; Pompey.
+
+KING RICHAM thou,''s awault-ncle.
+Groyy; lust but woul.
+Did is a brot Given in be.
+
+DLARD VINcENIO:
+
+SARGHOS:
+Shaldber lust me whuxhe, frially yonck'd.
+Webheek Hisseld wish, hi love:
+Nadver I refil We wivicklep him dit: should be till
+Horse'st wilt, I my true us., HenMy, Buthoro, but: all!
+Bycable you cry trust should?
+
+ISABELLA:Were no wear? yea
+Of I said just, wa, and arbs-birk As and lother.
+BleoffoRd HePour'ds doth! poiceress almisy!'
+
+QUEEN-MIAxamoni:
+We bid he 
+

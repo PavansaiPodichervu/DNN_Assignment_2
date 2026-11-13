@@ -1,5 +1,5 @@
 experiment,metric,value
-HAR Transformer,test accuracy,0.8995588734306074
-HAR Transformer,test macro-F1,0.8969631312681249
-Tiny Shakespeare,validation nats/char,2.1946093082427978
-Tiny Shakespeare,validation bits/char,3.1661519656906427
+HAR Transformer,test accuracy,0.8853070919579233
+HAR Transformer,test macro-F1,0.8828842347474698
+Tiny Shakespeare,validation nats/char,1.6777182137966156
+Tiny Shakespeare,validation bits/char,2.420435747053467

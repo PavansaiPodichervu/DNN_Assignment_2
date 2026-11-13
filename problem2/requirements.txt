@@ -1,5 +1,6 @@
-torch>=2.0
-numpy
-pandas
-matplotlib
-scikit-learn
+# Same pinned versions as the root requirements.txt (the project .venv used for all runs).
+torch==2.15.0
+numpy==2.5.4
+pandas==3.1.1
+matplotlib==3.11.2
+scikit-learn==1.9.1
